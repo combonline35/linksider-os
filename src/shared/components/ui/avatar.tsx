@@ -1,0 +1,1 @@
+export function Avatar({ name }: { name?: string | null }) { return <div className="flex h-9 w-9 items-center justify-center rounded-full bg-slate-900 text-sm font-semibold text-white">{(name?.[0] ?? "U").toUpperCase()}</div>; }
